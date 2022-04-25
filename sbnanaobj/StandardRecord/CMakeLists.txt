@@ -2,6 +2,10 @@
 include_directories( ${CMAKE_CURRENT_SOURCE_DIR} ) ### MIGRATE-ACTION-RECOMMENDED: use target_link_directories() with target semantics
 
 set( PACKAGE sbnanaobj_StandardRecord )
+
+add_subdirectory(Proxy)
+add_subdirectory(Flat)
+
 FILE( GLOB src_files *.cxx )
 
 cet_make_library( LIBRARY_NAME sbnanaobj_StandardRecord
