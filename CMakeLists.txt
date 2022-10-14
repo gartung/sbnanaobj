@@ -19,8 +19,6 @@ project(sbnanaobj VERSION 09.19.04 LANGUAGES CXX)
 
 message(STATUS "\n\n  ==========================   ${PROJECT_NAME}   ==========================")
 
-# cetbuildtools contains our cmake modules ### MIGRATE-ACTION-REQUIRED: remove
-
 include(CetCMakeEnv)
 cet_cmake_env()
 
