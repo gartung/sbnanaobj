@@ -1,5 +1,5 @@
 # for classes_def.xml!!
-include_directories( ${CMAKE_CURRENT_SOURCE_DIR} ) ### MIGRATE-ACTION-RECOMMENDED: use target_link_directories() with target semantics
+include_directories( ${CMAKE_CURRENT_SOURCE_DIR} )
 
 set( PACKAGE sbnanaobj_StandardRecord )
 
