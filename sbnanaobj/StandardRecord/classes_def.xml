@@ -5,21 +5,35 @@
 <!-- art::Wrappers for these products are defined in CAFMaker -->
 
 <lcgdict>
-  <class name="caf::StandardRecord" ClassVersion="10">
+  <class name="caf::StandardRecord" ClassVersion="11">
+   <version ClassVersion="11" checksum="483883398"/>
    <version ClassVersion="10" checksum="2569909752"/>
   </class>
 
-  <class name="caf::SRHeader" ClassVersion="15">
+  <class name="caf::SRHeader" ClassVersion="16">
+   <version ClassVersion="16" checksum="2130480854"/>
    <version ClassVersion="15" checksum="2023063203"/>
    <version ClassVersion="14" checksum="381900980"/>
-    <version ClassVersion="13" checksum="2553933268"/>
-    <version ClassVersion="12" checksum="3508873578"/>
+   <version ClassVersion="13" checksum="2553933268"/>
+   <version ClassVersion="12" checksum="3508873578"/>
    <version ClassVersion="11" checksum="2592833259"/>
    <version ClassVersion="10" checksum="2908097963"/>
   </class>
 
   <class name="caf::SRNuID" ClassVersion="10">
    <version ClassVersion="10" checksum="1379012114"/>
+  </class>
+
+  <class name="caf::SRPFOChar" ClassVersion="10" >
+   <version ClassVersion="10" checksum="1756876186"/>
+  </class>
+
+  <class name="caf::SRHit" ClassVersion="10">
+   <version ClassVersion="10" checksum="1494967532"/>
+  </class>
+
+  <class name="caf::SRSpacePoint" ClassVersion="10">
+   <version ClassVersion="10" checksum="3576822006"/>
   </class>
 
   <class name="caf::SRShowerPlaneInfo" ClassVersion="10">
@@ -49,7 +63,8 @@
    <version ClassVersion="11" checksum="1429601394"/>
   </class>
 
-  <class name="caf::SRSliceRecoBranch" ClassVersion="11">
+  <class name="caf::SRSliceRecoBranch" ClassVersion="12">
+   <version ClassVersion="12" checksum="2959836900"/>
    <version ClassVersion="11" checksum="1272564698"/>
    <version ClassVersion="10" checksum="1432916981"/>
   </class>
@@ -94,7 +109,8 @@
     <![CDATA[{ energy = onfile.energy; }]]>
   </ioread>
 
-  <class name="caf::SRCaloPoint" ClassVersion="10">
+  <class name="caf::SRCaloPoint" ClassVersion="11">
+   <version ClassVersion="11" checksum="3357014269"/>
    <version ClassVersion="10" checksum="3748600600"/>
   </class>
 
@@ -136,7 +152,8 @@
    <version ClassVersion="10" checksum="833172973"/>
   </class>
 
-  <class name="caf::SRMeVPrtl" ClassVersion="12">
+  <class name="caf::SRMeVPrtl" ClassVersion="13">
+   <version ClassVersion="13" checksum="1679355068"/>
    <version ClassVersion="12" checksum="485663119"/>
    <version ClassVersion="11" checksum="2904339381"/>
    <version ClassVersion="10" checksum="3963837747"/>
@@ -187,7 +204,8 @@
    <version ClassVersion="10" checksum="839301601"/>
   </class>
 
-  <class name="caf::SRPFP" ClassVersion="10">
+  <class name="caf::SRPFP" ClassVersion="11">
+   <version ClassVersion="11" checksum="1837341006"/>
    <version ClassVersion="10" checksum="1732359397"/>
   </class>
 
@@ -210,6 +228,7 @@
   <class name="caf::SRBNBInfo" ClassVersion="10">
    <version ClassVersion="10" checksum="2143749817"/>
   </class>
+
   <class name="caf::SRNuMIInfo" ClassVersion="10">
    <version ClassVersion="10" checksum="3796231674"/>
   </class>
@@ -230,6 +249,10 @@
    <version ClassVersion="10" checksum="1010873394"/>
   </class>
 
+  <class name="caf::SRTrigger" ClassVersion="10">
+   <version ClassVersion="10" checksum="3388549490"/>
+  </class>
+
   <!--<class name="caf::SRLorentzVector" /> -->
 
   <class name="std::vector<caf::SRSlice>" />
@@ -241,6 +264,7 @@
   <class name="std::vector<caf::SRVector3D>" />
   <!--<class name="std::vector<caf::SRLorentzVector>" /> -->
   <class name="std::vector<caf::SRShower>" />
+  <class name="std::vector<caf::SRHit>" />
   <class name="std::vector<caf::SRShowerSelection>" />
   <class name="std::vector<caf::SRTrueInteraction>" />
   <class name="std::vector<caf::SRMultiverse>" />
@@ -254,6 +278,7 @@
   <class name="std::vector<caf::SRBNBInfo>" />
   <class name="std::vector<caf::SRNuMIInfo>" />
   <class name="std::vector<caf::SRCRUMBSResult>" />
+  <class name="std::vector<caf::SRTrigger>" />
 
   <class name="caf::SRCRTHit" ClassVersion="11">
    <version ClassVersion="11" checksum="3268314487"/>
@@ -274,6 +299,13 @@
    <version ClassVersion="10" checksum="2672302824"/>
   </class>
 
+  <class name="caf::SROpFlash" ClassVersion="12">
+   <version ClassVersion="12" checksum="3122666215"/>
+   <version ClassVersion="11" checksum="2756572285"/>
+   <version ClassVersion="10" checksum="2672302824"/>
+  </class>
+  <class name="std::vector<caf::SROpFlash>" />
+  
   <enum name="caf::Det_t" ClassVersion="10"/>
   <enum name="caf::Plane_t" ClassVersion="10"/>
   <enum name="caf::Wall_t" ClassVersion="10"/>
